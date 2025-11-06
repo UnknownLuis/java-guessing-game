@@ -72,9 +72,8 @@ public class ComputerGameMaster {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ComputerGameMaster gm = new ComputerGameMaster();
-		gm.generateRandomNumber();
-	
-		System.out.println(gm.getNumber());
+		
+		gm.terminalGame(new Scanner(System.in));
 
 	}
 
