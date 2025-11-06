@@ -18,6 +18,10 @@ public class ComputerGameMaster {
 		// source: https://www.baeldung.com/java-generating-random-numbers
 		number = (int) ((Math.random() * (bounds[1] - bounds[0])) + bounds[0]);
 	}
+	
+	public boolean guess(int guess) {
+		return (guess == number);
+	}
 
 	/**
 	 * @param args
